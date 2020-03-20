@@ -1,6 +1,7 @@
 .avatar { 
 border-radius: 50px;
 width: 140px;
-position:relative;
-left:30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
  }

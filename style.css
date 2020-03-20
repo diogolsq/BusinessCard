@@ -32,10 +32,8 @@ h2{font-family: 'Montserrat', sans-serif;
 }
 
 
-
-.row{
-	margin:10px;
-	
+.header{
+	text-align: center;
 }
 
 .clearfix{
