@@ -1,4 +1,6 @@
 .avatar { 
 border-radius: 50px;
 width: 140px;
+position:relative;
+left:30px;
  }
