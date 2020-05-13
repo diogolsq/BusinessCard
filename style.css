@@ -4,17 +4,29 @@
 
 
 /*Fonts and color*/
+div {
+}
+
+.card{
+  background: white;
+  width:300px;
+  margin:0 auto;
+  border-radius:5px;
+  padding: 0px 5px;
+  box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+}
 body {
 	background: rgb(240,240,240);
 	color: rgb(20,20,20);
 	font-family: 'Open Sans', sans-serif;
-    margin : 0;
+  margin : 0;
+  text-align: center;
 }
 
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
-	color: #808080;
+	color: rgb(100,100,100);
 }
 
 h2{font-family: 'Montserrat', sans-serif;
@@ -23,18 +35,24 @@ h2{font-family: 'Montserrat', sans-serif;
 
  }
 
+.list-inline {
+  margin-top:10px;
+}
+
+li {
+  padding:0px;
+}
+
+i {
+  color:grey;
+  font-size: 20px;
+  transition:0.3s;
+}
+
+i:hover{
+  color: #63b7af;
+  border:1px #63b7af;
+}
 
 /*Custom and Design*/
-#description{
-	position: relative;
-    bottom:15px;
-}
 
-
-.header{
-	text-align: center;
-}
-
-.clearfix{
-    clear:both
-}	
